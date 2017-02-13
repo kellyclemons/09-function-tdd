@@ -8,4 +8,6 @@ export default function shouldHit(card1, card2) {
   if (cardSum(card1, card2) <= 17) {
     return true;
   }
+
+  return false;
 }
